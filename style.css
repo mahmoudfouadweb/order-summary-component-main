@@ -15,51 +15,6 @@ body {
 /**************************/
 /* STYLES */
 /**************************/
-.card-section {
-  background-color: hsl(212, 45%, 89%);
-}
-.container {
-  max-width: 144rem;
-  height: 100vh;
-  /* margin: 0 auto; */
-  /* padding: 3rem auto; */
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  width: 20rem;
-  background-color: hsl(0, 0%, 100%);
-  display: inline-block;
-  padding: 1rem;
-  border-radius: 11px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
-}
-
-.qr {
-  width: 18rem;
-  border-radius: 11px;
-  padding-bottom: 1.8rem;
-}
-
-.card-title {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1.8rem;
-  color: hsl(218, 44%, 22%);
-  padding: 0 0.4rem;
-}
-
-.card-text {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 400;
-  color: hsla(219, 15%, 55%, 0.637);
-  margin-bottom: 1.8rem;
-  padding: 0 0.4rem;
-  margin: ;
-}
 
 /**************************/
 /* GENERAL  COMPONENT STYLES */
@@ -83,10 +38,10 @@ body {
 
 
 -font-family:
-font-family: 'Outfit', sans-serif; 400 700
+font-family: 'Red Hat Display', sans-serif; 500 700 900
 
 - Body 
-- Font size (paragraph): 15px
+- Font size (paragraph): 16px
 
 - Font weights
 Default: 400
@@ -106,16 +61,18 @@ Paragraph default: 1.6
 
 --- 02 COLORS
 ### Primary
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
 
 ### Accent
 -none
 
 ### Neutral
-none
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
 
 ## Icons
 
