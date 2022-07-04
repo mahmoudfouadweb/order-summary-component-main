@@ -66,6 +66,7 @@ body {
   padding: 1rem;
   gap: 1rem;
   align-items: center;
+  margin-bottom: 1.6rem;
 }
 
 .card-icon {
@@ -77,8 +78,40 @@ body {
 }
 
 .plan-type {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
+}
+
+.plan-price {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: hsla(224, 23%, 55%, 0.797);
+}
+
+.btn-price-plan {
+  margin-left: auto;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-price-plan:hover {
+  color: hsla(245, 75%, 52%, 0.649);
+  text-decoration: none;
+}
+
+.btn-main {
+  background-color: hsl(245, 75%, 52%);
+  padding: 0.8rem 1.6rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 11px;
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+  box-shadow: 0 10px 20px rgba(56, 41, 224, 0.4);
 }
 /**************************/
 /* GENERAL  COMPONENT STYLES */
