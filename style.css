@@ -12,6 +12,7 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   line-height: 1;
   background-color: hsl(225, 100%, 94%);
+  color: hsl(223, 47%, 23%);
 }
 /**************************/
 /* STYLES */
@@ -32,6 +33,27 @@ body {
   background-color: hsl(225, 100%, 98%);
   width: 25rem;
   border-radius: 11px;
+}
+
+.card-container {
+  padding: 2.4rem;
+}
+.card-img-box {
+  width: 25rem;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.card-heading-primary {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 500;
 }
 /**************************/
 /* GENERAL  COMPONENT STYLES */
