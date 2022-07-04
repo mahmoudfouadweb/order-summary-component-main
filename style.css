@@ -9,13 +9,30 @@
 
 body {
   font-size: 62.5%;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   line-height: 1;
+  background-color: hsl(225, 100%, 94%);
 }
 /**************************/
 /* STYLES */
 /**************************/
+.card-section {
+  max-width: 144rem;
+  height: 100vh;
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: hsl(225, 100%, 98%);
+  width: 25rem;
+  border-radius: 11px;
+}
 /**************************/
 /* GENERAL  COMPONENT STYLES */
 /**************************/
