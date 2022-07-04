@@ -111,7 +111,27 @@ body {
   font-size: 0.9rem;
   font-weight: 900;
   letter-spacing: 0.7px;
-  box-shadow: 0 10px 20px rgba(56, 41, 224, 0.4);
+  box-shadow: 0 10px 20px rgba(56, 41, 224, 0.3);
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 1.6rem;
+}
+
+.btn-main:hover {
+  background-color: hsla(245, 75%, 52%, 0.734);
+}
+
+.btn-cancel {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  color: hsla(224, 23%, 55%, 0.797);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
 }
 /**************************/
 /* GENERAL  COMPONENT STYLES */
